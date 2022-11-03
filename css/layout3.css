@@ -1,0 +1,241 @@
+body { overflow-x: hidden;background:#fff;font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;, sans-serif;font-size:12px;color:#000;line-height:100%;font-weight:normal;padding:0px;margin:0px;letter-spacing:-0px; }
+html, body { width:100%;height:100%;letter-spacing:0px; }
+div, p, ul, li, table, th, td, textarea, input, span, form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, sup {padding:0px;margin:0px;}
+ul, ol, dl, dd, dt, li { list-style-type:none;margin:0;padding:0px;line-height:100%;font-size:12px;color:#5b5b5b;letter-spacing:0px; }
+form, fieldset, p {margin:0;padding:0;border:0;}
+img {border:0;vertical-align:middle;outline:none;}
+
+*{margin:0;padding: 0;}
+a,a:link,a:visited,a:active{color:#575757;letter-spacing:normal;text-decoration:none;letter-spacing:-0.8px;}
+
+.clearfix::after{content:""; display:block; clear:both;}
+
+p{font-size:20px;}
+
+header{position:fixed;background-color:#fff;width:100%;height:190px;display: block;z-index: 100;}
+
+h2{font-size:40px;}
+a:hover{text-decoration: none; font-weight: bold;transition:0.2;color:#000;}
+
+
+ #text_wrap .btn, #text_wrap2 .btn, #text_wrap3 .btn,
+#text_wrap4 .btn{ 
+     font-weight: 400;
+            text-align: center;
+            border: 1px solid #000;
+            width: 240px;
+            height: 50px;
+            line-height: 50px;
+            border-radius: 50px;
+            transition: 0.5s;
+            cursor: pointer;
+             position:relative;
+             left:236px;
+             top:-260px;
+        }
+
+     #text_wrap .btn a, #text_wrap2 .btn a, #text_wrap3, #text_wrap4{
+            color: #000;
+            text-decoration: none;
+            font-size: 16px;
+            text-align: center;
+        position: relative;top:-9px;
+        }
+
+        #text_wrap .btn:hover {
+            background-color: black;
+        }
+
+#text_wrap2 .btn:hover {
+            background-color: black;
+        }
+#text_wrap3 .btn:hover {
+            background-color: black;
+        }
+
+#text_wrap4 .btn:hover {
+            background-color: black;
+        }
+
+
+        #text_wrap .btn a:hover {
+            font-weight: 400;
+            color: #fff;
+        }
+#text_wrap2 .btn a:hover {
+            font-weight: 400;
+            color: #fff;
+        }
+#text_wrap3 .btn a:hover {
+            font-weight: 400;
+            color: #fff;
+        }
+#text_wrap4 .btn a:hover {
+            font-weight: 400;
+            color: #fff;
+        }
+
+
+
+#wrap{width:1800px;height:100%;margin:0 auto}
+#margin_wrap{margin:0 auto;width:1800px;}
+
+#logo img{width:250px;height:110px;margin-top:30px;}
+
+#gnb{width:1800px;height:100px;}
+#gnb ul{background-color:aqua;margin-top:-55px;}
+
+#gnb li{float:right;width:154px;margin-left:40px;height:100px;font-size:24px;text-align: center;position:relative;z-index: 10;display: block;}
+
+
+
+#main_1_text span{font-size:200px;color:#fff;position:relative;top:540px;line-height: 190px;left:30px;font-weight: bold;}
+
+#video_wrap video{width:100%;margin-top:-200px;}
+#wraping video{width:1200px;height:900px;}
+#con_1{transition:0.5s;width:950px;height:800px;background-image: url(../img/seoul.jpg);background-position: center;background-size: 100%;background-repeat: no-repeat;}
+
+#con_1:hover{width:950px;height:800px;background-image: url(../img/seoul.jpg);background-position: center;background-size: 120%;background-repeat: no-repeat;}
+#video_wrap p{color:#000;font-size:30px;}
+
+#con_2{float: right;width:950px;height:800px;background-image: url(../img/CHEONGJU.jpg);background-position: center;background-size: 100%;background-repeat: no-repeat;transition:0.5s;}
+
+wrap
+
+#con_2:hover{width:950px;height:800px;background-image: url(../img/CHEONGJU.jpg);background-position: center;background-size: 100%;background-repeat: no-repeat;}
+#video_wrap p{color:#000;font-size:30px;}
+
+
+#main_2{margin-top:90px;font-size: 40px;}
+
+#text_wrap{float: right;margin-top:-520px;}
+#text_wrap h2{right:-170px;top:-5px;position:relative;}
+#text_wrap p{text-align: right;line-height: 30px;font-size: 20px;margin-top:70px;}
+#text_wrap .btn{float:right;;position:relative;left:3px;top:40px;}
+
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8{border-bottom: 1px solid #000;}
+
+#b1, #b3{width:300px;margin-left:520px;margin-top:-8px;}
+#b2{margin-top:170px;}
+
+#b3{width:120px;margin-left:-20px;}
+#text_wrap2{position:relative;top:240px;}
+#text_wrap2 p{line-height: 30px;font-size: 20px;margin-top:70px;}
+
+#text_wrap2 .btn{margin-top:300px;margin-left:-237px;}
+
+#con_2{transition:0.5s;width:950px;height:800px;background-image: url(../img/gwhacheon.jpg);background-position: center;background-size: 100%;background-repeat: no-repeat;}
+#con_2:hover{transition:0.5s;width:950px;height:800px;background-image: url(../img/gwhacheon.jpg);background-position: center;background-size: 120%;background-repeat: no-repeat;}
+
+#b4{width:820px;margin-top:-180px;}
+
+#con_3{transition:0.5s;width:950px;height:800px;background-image: url(../img/DEOKSUGUNG.jpg);background-position: center;background-size: 100%;background-repeat: no-repeat;}
+
+#con_3:hover{width:950px;height:800px;background-image: url(../img/DEOKSUGUNG.jpg);background-position: center;background-size: 120%;background-repeat: no-repeat;}
+#video_wrap p{color:#000;font-size:30px;}
+
+#text_wrap3{position:relative;float:right;text-align: right;top:-560px;}
+#text_wrap3 p{line-height: 30px;font-size: 20px;margin-top:70px;}
+
+#text_wrap3 .btn{margin-left:260px;margin-right:20px;margin-top:330px;}
+
+#b5{width:260px;margin-left:-20px;}
+#b6{margin-top:-200px;width:700px;}
+
+
+
+#main_3{margin-top:540px;}
+
+#con_4:hover{width:950px;height:800px;background-image: url(../img/CHEONGJU.jpg);background-position: center;background-size: 120%;background-repeat: no-repeat;}
+#video_wrap p{color:#000;font-size:30px;}
+
+
+#main_4{margin-top:90px;font-size: 40px;}
+
+#text_wrap4{float:left;text-align: left;}
+#text_wrap4 h2{top:-5px;position:relative;}
+#text_wrap4 p{text-align: left;line-height: 30px;font-size: 20px;margin-top:70px;}
+#text_wrap4 .btn{position:relative;left:3px;top:40px;}
+
+#con_4{margin-left:870px;margin-top:60px;transition:0.5s;width:950px;height:800px;background-image: url(../img/CHEONGJU.jpg);background-position:center;background-size: 100%;background-repeat: no-repeat;}
+
+#con_4:hover{width:950px;height:800px;background-image: url(../img/CHEONGJU.jpg);background-position: center;background-size: 120%;background-repeat: no-repeat;}
+#video_wrap p{color:#000;font-size:30px;}
+
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8{border-bottom: 1px solid #000;}
+
+#b1, #b3{width:300px;margin-left:520px;margin-top:-8px;}
+#b2{margin-top:170px;}
+
+
+#text_wrap2{position:relative;top:240px;}
+#text_wrap2 p{line-height: 30px;font-size: 20px;margin-top:70px;}
+
+#text_wrap2 .btn{margin-top:300px;margin-left:-237px;}
+
+
+
+#main_3_con{margin-top:120px;}
+#main_3_text p{margin-top:30px;}
+
+#main3_wrap{margin-top:50px;}
+#contents{width:1800px;height:800px;}
+
+#main3_wrap li{width:580px;height:600px;background-color:#000;margin-left:30px;float:left;font-size:30px;}
+
+#main3_wrap a{color:#000;position:relative;top:620px;}
+#main_3 .btn{position:relative;left:187px;}
+
+#main3_wrap li:nth-child(1){margin-left:0;cursor:pointer; background-image:url(../img/con2_1.jpg);background-position:center;background-repeat: no-repeat;background-size: 110%;transition:0.5s;}
+#main3_wrap li:nth-child(2){cursor:pointer;background-image:url(../img/col2.jpg);transition:0.5s;background-position: center;background-repeat: no-repeat;background-size: 110%;}
+#main3_wrap li:nth-child(3){cursor:pointer;background-image:url(../img/col3.jpg);transition:0.5s;background-position: center;background-repeat: no-repeat;background-size: 130%;}
+
+
+#text_wrap4{margin-top:-600px;}
+
+
+#main3_wrap li:nth-child(1):hover{cursor:pointer; background-image:url(../img/con2_1.jpg);background-position:center;background-repeat: no-repeat;background-size: 120%;}
+#main3_wrap li:nth-child(2):hover{cursor:pointer;background-image:url(../img/col2.jpg);background-position: center;background-repeat: no-repeat;background-size: 130%;}
+#main3_wrap li:nth-child(3):hover{cursor:pointer;background-image:url(../img/col3.jpg);background-position: center;background-repeat: no-repeat;background-size: 150%;}
+#main3_wrap p{margin-top:20px;}
+
+#text_wrap4{position:relative;top:70px;}
+#b7{width:330px;margin-top:-10px;margin-left:440px;}
+#b8{margin-top:120px;}
+
+#logo_footer img{width:250px;height:110px;margin-left:70px;margin-top:50px;}
+
+footer{background-color:#000;width:1800px;height:800px;
+margin-top:100px;}
+#logo_footer img{width:250px;height:110px;margin-left:70px;margin-top:50px;}
+
+#f1 a,#f2 a{font-size:24px;}
+
+#f1{width:660px;height:579px;background-color:#000;}
+#f2{width:860px;height:800px;background-color:#eaeaea;float:right;margin-top:-801px;}
+
+#f1_1{position:relative;left:70px;top:120px;}
+
+#f1_1 li{margin-top:50px;}
+
+#f1_1 li:hover{font-weight: bold;text-decoration: none;}
+#f2 li:hover{font-weight: bold;text-decoration: none;}
+
+#f1_2{margin-left:60px;margin-top:250px;}
+#f1_2 li{float:left;}
+#f1_1 a{color:#fff;}
+#f2 a{color:#000;}
+
+#f2{text-align: right;}
+#f2 a{position: relative;top:300px;}
+#f2 li{margin-top:50px;margin-right:70px;}
+
+
+
+
+
+
+
+

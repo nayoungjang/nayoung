@@ -1,0 +1,174 @@
+body { overflow-x: hidden;background:#fff;font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;, sans-serif;font-size:12px;color:#000;line-height:100%;font-weight:normal;padding:0px;margin:0px;letter-spacing:-0px; }
+html, body { width:100%;height:100%;letter-spacing:0px; }
+div, p, ul, li, table, th, td, textarea, input, span, form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, sup {padding:0px;margin:0px;}
+ul, ol, dl, dd, dt, li { list-style-type:none;margin:0;padding:0px;line-height:100%;font-size:12px;color:#5b5b5b;letter-spacing:0px; }
+form, fieldset, p {margin:0;padding:0;border:0;}
+img {border:0;vertical-align:middle;outline:none;}
+
+
+a,a:link,a:visited,a:active{color:#575757;letter-spacing:normal;text-decoration:none;letter-spacing:-0.8px;}
+
+.clearfix::after{content:""; display:block; clear:both;}
+
+p{font-size:20px;}
+
+header{position:fixed;background-color:#fff;width:100%;height:190px;display: block;z-index: 100;}
+
+
+
+h2{font-size:40px;}
+a:hover{text-decoration: none; font-weight: bold;transition:0.2;color:#000;}
+
+ #main_1 .btn {
+     font-weight: 400;
+            text-align: center;
+            border: 1px solid #fff;
+            width: 240px;
+            height: 50px;
+            line-height: 50px;
+            border-radius: 50px;
+            transition: 0.5s;
+            cursor: pointer;
+             position:relative;
+             left:236px;
+             top:-260px;
+        }
+
+     #main_1 .btn a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        #main_1 .btn:hover {
+            background-color: #ddd;
+        }
+
+        #main_1 .btn a:hover {
+            font-weight: 400;
+            color: #000;
+        }
+
+#wrap{width:1800px;height:100%;margin:0 auto}
+#margin_wrap{margin:0 auto;width:1800px;}
+
+#logo img{width:250px;height:110px;margin-top:30px;}
+
+#gnb{width:1800px;height:100px;}
+#gnb ul{background-color:aqua;margin-top:-55px;}
+
+#gnb li{float:right;width:154px;margin-left:40px;height:100px;font-size:24px;text-align: center;position:relative;z-index: 10;display: block;}
+
+#main_1 h2{animation: slideup 2s;}
+#video_wrap video{width:1800px;display: block;z-index: 10;}
+#wraping video{width:100%;height: 1100px;}
+
+#main_1{width:1800px;height:800px;position:relative;z-index: 0;}
+/*#main_1 h1{font-size: 270px;}*/
+
+/*
+#main1_img{text-align: center;margin-left: 35px;}
+#main1_img img{width:1650px;}
+*/
+
+#main1_img{width:100%;height:800px;background-image:url("../img/main1.jpg"); background-repeat: no-repeat;background-position: center;background-color:#000;background-size: 110%;}
+#main_1_text h2{display: block;z-index: 1;font-weight: bold;font-size:240px;color:#000;position:relative;left:1212px;top:-50px;}
+#main_1_text h1{display: block;z-index: 0;text-align: center;margin-top:140px;font-size:240px;color:white;}
+
+#main_1_text{position:relative;top:400px;}
+
+#main_1_text p{width:800px;height:100px;position:relative;top:130px;
+    left:236px;height:60px;font-size: 20px;color:white;}
+
+
+#main_2{margin-top:500px;}
+#main_2_text p{margin-top:30px;} 
+
+#main2_wrap{width:1800px;height:800px;}
+
+#main2_wrap ul{margin-top:60px;}
+#main2_wrap li{float:left;background-color:#000;font-size: 55px;}
+
+#main2_wrap a{position:relative;top:25px;left:30px;text-decoration: none;width:300px;height: 400px;font-weight: bold;color:#fff;}
+
+#main2_wrap li:nth-child(1){width:1200px;height:490px;cursor: pointer;background-image: url(../img/seoul.jpg);background-position: center;background-repeat: no-repeat;background-size:100%;}
+
+#main2_wrap li:nth-child(1):hover{width:1200px;height:490px;background-color:#fff;font-weight: bold;transition:0.5s;background-size: 100%;background-image: url(../img/seoul2.jpg);background-position: center;background-repeat: no-repeat;}
+#main2_wrap li a:nth-child(1){
+width:700px;heigt:40px;display:block;color:#000;}
+#main2_wrap li a:nth-child(1):hover{
+width:700px;heigt:40px;display:block;color:#fff;}
+
+#main2_wrap li:nth-child(2){float:right;width:580px;height:1000px;cursor: pointer;background-image: url(../img/gwhacheon.jpg);background-position: center;background-repeat: no-repeat;background-size:150%;}
+
+#main2_wrap li:nth-child(2):hover{float:right;width:580px;height:1000px;cursor: pointer;background-image: url(../img/gwhacheon2.jpg);background-position: center;background-repeat: no-repeat;background-size:140%;transition:0.5s;}
+
+#main2_wrap li:nth-child(3){width:590px;height:490px;margin-top:20px;cursor: pointer;background-image: url(../img/DEOKSUGUNG.jpg);background-position: center;background-repeat: no-repeat;background-size:160%;}
+
+#main2_wrap li:nth-child(3):hover{width:590px;height:490px;margin-top:20px;cursor: pointer;background-image: url(../img/DEOKSUGUNG2.jpg);background-position: center;background-repeat: no-repeat;background-size:160%;transition:0.5s;}
+
+
+#main2_wrap li:nth-child(4){margin-left:20px;width:590px;height:490px;margin-top:20px;
+cursor: pointer;background-image: url(../img/CHEONGJU2.jpg);background-position: center;background-repeat: no-repeat;background-size:130%;}
+
+#main2_wrap li:nth-child(4):hover{width:590px;height:490px;margin-top:20px;cursor: pointer;background-image: url(../img/CHEONGJU.jpg);background-position: center;background-repeat: no-repeat;background-size:140%;transition:0.5s;}
+
+#main2_wrap p{font-size:18px;margin-top:-7px;}
+
+#main_1_text{z-index: 100;}
+#main_1_text h1{display:block;}
+#main_1_text span{color:#000;}
+#r{background-color:#fff;width:190px;height:800px;position: absolute;margin-left:1205px;}
+
+
+#main_3{margin-top:480px;}
+#main_3_text p{margin-top:30px;}
+
+#main3_wrap{margin-top:50px;}
+#contents{width:1800px;height:800px;}
+
+#main3_wrap li{width:580px;height:600px;background-color:#000;margin-left:30px;float:left;font-size:30px;}
+
+#main3_wrap a{color:#000;position:relative;top:620px;}
+
+
+#main3_wrap li:nth-child(1){margin-left:0;cursor:pointer; background-image:url(../img/col1.jpg);background-position:center;background-repeat: no-repeat;background-size: 100%;transition:0.5s;}
+#main3_wrap li:nth-child(2){cursor:pointer;background-image:url(../img/col2.jpg);transition:0.5s;background-position: center;background-repeat: no-repeat;background-size: 110%;}
+#main3_wrap li:nth-child(3){cursor:pointer;background-image:url(../img/col3.jpg);transition:0.5s;background-position: center;background-repeat: no-repeat;background-size: 130%;}
+
+#main3_wrap li:nth-child(1):hover{cursor:pointer; background-image:url(../img/col1.jpg);background-position:center;background-repeat: no-repeat;background-size: 120%;}
+#main3_wrap li:nth-child(2):hover{cursor:pointer;background-image:url(../img/col2.jpg);background-position: center;background-repeat: no-repeat;background-size: 130%;}
+#main3_wrap li:nth-child(3):hover{cursor:pointer;background-image:url(../img/col3.jpg);background-position: center;background-repeat: no-repeat;background-size: 150%;}
+#main3_wrap p{margin-top:20px;}
+
+#logo_footer img{width:250px;height:110px;margin-left:70px;margin-top:50px;}
+footer{width:100%;height:800px;background-color:#000;margin-top:100px;}
+#f1 a,#f2 a{font-size:24px;}
+
+#f1{width:660px;height:579px;background-color:#000;}
+#f2{width:860px;height:800px;background-color:#eaeaea;float:right;margin-top:-801px;}
+
+#f1_1{position:relative;left:70px;top:120px;}
+
+#f1_1 li{margin-top:50px;}
+
+#f1_1 li:hover{font-weight: bold;text-decoration: none;}
+#f2 li:hover{font-weight: bold;text-decoration: none;}
+
+#f1_2{margin-left:60px;margin-top:250px;}
+#f1_2 li{float:left;}
+#f1_1 a{color:#fff;}
+#f2 a{color:#000;}
+
+#f2{text-align: right;}
+#f2 a{position: relative;top:300px;}
+#f2 li{margin-top:50px;margin-right:70px;}
+
+
+
+
+
+
+
+
